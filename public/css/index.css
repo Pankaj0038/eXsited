@@ -1,5 +1,5 @@
 body{
-	background-color: #333;
+	background-color: #222;
 	color: white;
 	min-height: 98vh;
 	display: grid;
@@ -11,7 +11,7 @@ body{
 
 
 nav{
-	background-color: #677;
+	background-color: #111;
 	height: 5rem;
 	display: flex;
 	justify-content: space-around;
@@ -19,7 +19,7 @@ nav{
 	min-width: 100vh;
 }
 nav a {
-	color: white;
+	color: orange;
 	font-family: monospace;
 	font-size: 1rem;
 }
@@ -31,7 +31,8 @@ fieldset{
 	min-width: 50vh;
 	padding: 1rem;
 	border-radius: 1rem;
-	background-color: #899;
+	background-color: #111;
+	color: orange;
 }
 fieldset *{
 	margin: .4rem;
