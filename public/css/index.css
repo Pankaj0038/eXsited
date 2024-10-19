@@ -1,0 +1,60 @@
+body{
+	background-color: #333;
+	color: white;
+	min-height: 98vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+nav{
+	background-color: #677;
+	height: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 100vh;
+}
+nav a {
+	color: white;
+	font-family: monospace;
+	font-size: 1rem;
+}
+
+
+fieldset{
+	display: flex;
+	flex-direction: column;
+	min-width: 50vh;
+	padding: 1rem;
+	border-radius: 1rem;
+	background-color: #899;
+}
+fieldset *{
+	margin: .4rem;
+}
+input{
+	border-radius: 1rem;
+}
+textarea{
+	min-height: 4rem;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+#fd{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #677;
+}
